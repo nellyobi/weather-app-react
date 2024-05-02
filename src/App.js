@@ -6,11 +6,12 @@ export default function App() {
   return (
     <div className="App">
       <h1> Weather App </h1>
+      <button className="btn btn-primary"> Hello </button>
       <div className="container">
         <Weather />
 
         <footer>
-          This project was coded by{" "}
+          This project was coded by {" "}
           <a
             href="https://github.com/nellyobi"
             target="_blank"
